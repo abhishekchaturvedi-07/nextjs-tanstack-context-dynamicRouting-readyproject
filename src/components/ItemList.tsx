@@ -80,8 +80,10 @@ const ItemList: React.FC = () => {
     return () => observer.disconnect();
   }, [fetchNextPage, hasNextPage, isFetchingNextPage]);
 
-  if (status === "loading") return <div>Loading...</div>;
-  if (status === "error") return <div>Error loading items</div>;
+  if (status === "pending")
+    return <div className="container mx-auto px-4">Loading...</div>;
+  if (status === "error")
+    return <div className="container mx-auto px-4">Error loading items</div>;
   if (userNameError) return <div>Error loading user name</div>;
 
   return (

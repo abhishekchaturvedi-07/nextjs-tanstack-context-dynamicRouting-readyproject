@@ -30,7 +30,7 @@ export default function ItemDetail() {
   });
 
   if (isLoading) {
-    return <div>Loading...</div>;
+    return <div className="container mx-auto px-4">Loading...</div>;
   }
 
   if (!item) {
