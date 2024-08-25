@@ -16,7 +16,7 @@ This project is a Next.js 14 application that demonstrates the use of React Quer
 
 ## Project Structure
 
-```
+```plaintext
 src/
 ├── app/
 │   ├── item/
