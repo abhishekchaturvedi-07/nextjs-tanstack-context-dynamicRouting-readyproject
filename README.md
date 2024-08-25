@@ -58,6 +58,7 @@ src/
 - Uses React Query to fetch items and user name
 - Displays items in a grid layout
 - Sets the common value and user name in the context
+- useInfiniteQuery added from React Query to handle pagination - 9 items at a time'
 
 ### 6. Item Detail Page (src/app/item/[id]/page.tsx)
 - Uses dynamic routing to fetch and display item details
